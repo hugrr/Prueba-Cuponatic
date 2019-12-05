@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext");
+
+#nav {
+  width: 33%;
+  background-color: rgb(45, 148, 218);
+  margin: auto;
+  height: 15%;
+  margin-top: 50px;
+}
+
+#nav1 {
+  margin-top: 26px;
+}
+#main {
+  font-size: 8px;
+  margin-left: 1px;
+}
+
+#search1 {
+  margin-left: 200px;
+  margin-top: 2px;
+  font-size: 25px;
+}
+
+body {
+  font: bold 28px Sans-Serif;
+  color: aliceblue;
+}
+#menu {
+  margin-top: 2px;
+  margin-left: 40px;
+}
+#title {
+  margin-top: 2px;
+  margin-left: 35px;
+}
+#search {
+  margin-top: 2px;
+  font-size: 28px;
+  margin-left: 87px;
+}
+#search2 {
+  font-size: 8px;
+  margin-left: 87px;
+}
+#account {
+  margin-top: 2px;
+  font-size: 28px;
+  margin-left: 28px;
+}
+#account2 {
+  font-size: 8px;
+  margin-left: 28px;
+}
+#iconTop1 {
+  font-size: 16px;
+  margin-left: 260px;
+}
+#iconTop2 {
+  font-size: 16px;
+  margin-left: 10px;
+}
+#iconTop3 {
+  font-size: 16px;
+  margin-left: 10px;
+}
+#hora {
+  font-size: 16px;
+  margin-left: 40px;
+  margin-top: 12px;
+}
+.card {
+  width: 97%;
+  margin: auto;
+  margin-top: 4px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+#card {
+  box-shadow: 1px 3px 3px 3px rgb(182, 178, 178);
+}
+.card-body {
+  height: 110px;
+  display: flex;
+  background: white;
+}
+.card-body2 {
+  height: 260px;
+  display: flex;
+  background: rgb(243, 241, 241);
+}
+.container {
+  display: flex;
+  background: rgb(243, 241, 241);
+  width: 33%;
+  height: 1500px;
+  margin: auto;
+  margin-bottom: 10%;
+}
+#textCard {
+  font-size: 21px;
+}
+#boton {
+  height: 60px;
+  width: 60px;
+  font-size: 16px;
+  font-weight: normal;
+  font-weight: bold;
+  margin-left: 45px;
+  margin-top: 6px;
+  background-color: rgb(91, 14, 235);
+  border: rgb(69, 0, 230);
+}
+#precio1 {
+  color: rgb(235, 129, 8);
+  margin-left: 18px;
+
+  margin-top: 2px;
+}
+
+#precio2 {
+  color: rgb(177, 177, 172);
+  margin-left: 20px;
+  margin-top: 2px;
+  text-decoration: line-through;
+  font-size: 20px;
+}
+.textFinal {
+  color: rgb(177, 177, 172);
+  font-size: 16px;
+  margin-left: 43px;
+}
+
+#iconoFooter {
+  color: rgb(177, 177, 172);
+  font-size: 16px;
+  margin-left: 150px;
+}
+#footer {
+  color: rgb(177, 177, 172);
+  font-size: 16px;
+  margin-left: 10px;
+}
+#boton2 {
+  height: 45px;
+  width: 125px;
+  font-size: 16px;
+  margin-top: 13px;
+  margin-left: 18px;
+  margin-bottom: 3px;
+  background-color: white;
+}
+#iconButon {
+  font-size: 20px;
+  padding: 4px;
+}
+#iconButon2 {
+  transform: rotate(90deg);
+  padding: 4px;
+}
+#iconButon3 {
+  font-size: 20px;
+  padding: 4px;
+  background: #f3eded;
+}
+.cardMap {
+  width: 33%;
+  margin: auto;
+}
+#imagenMapa {
+  margin-top: 1px;
+  height: 500px;
+  width: 440px;
+}
+.mapSombra {
+  box-shadow: 0px 1p 1px 4px rgb(182, 178, 178);
+  height: 70px;
+  width: 550px;
+  display: flex;
+
+  background: rgb(243, 241, 241);
+}
+#Filter1 {
+  padding: 0;
+  width: 33%;
+  margin: auto;
+  display: flex;
+  background: white;
+  height: 640px;
+  background-color: white;
+  border-color: #f3eded;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 20px;
+}
+#iconFilter {
+  margin-left: 15px;
+}
+#textFilter {
+  margin-top: 1opx;
+  margin-left: 30px;
+  padding: 10px;
+  color: rgb(45, 148, 218);
+}
+#iconFilter2 {
+  margin-left: 440px;
+  margin-top: 20px;
+}
+#list {
+  font-size: 18px;
+  margin-top: 50px;
+  width: 100%;
+  margin-left: 8px;
+}
+#textFilterx {
+  margin-left: 265px;
+  transform: rotate(270deg);
+  color: rgb(45, 148, 218);
+}
+#textFilterx2 {
+  margin-left: 275px;
+  transform: rotate(270deg);
+  color: rgb(45, 148, 218);
+}
+#textFilterx3 {
+  margin-left: 193px;
+  transform: rotate(270deg);
+  color: rgb(45, 148, 218);
+}
+#textFilterx4 {
+  margin-left: 170px;
+  transform: rotate(270deg);
+  color: rgb(45, 148, 218);
+}
