@@ -1,10 +1,9 @@
 import React from "react";
-import rigoImage from "../../img/rigo-baby.jpg";
 import "../../styles/home.scss";
 import { Link } from "react-router-dom";
 
 export const Mapa = () => (
-	<div className="container row">
+	<div className="container row xxx">
 		<div className="mapSombra">
 			{" "}
 			<Link to="/sort">
@@ -28,12 +27,7 @@ export const Mapa = () => (
 		</div>
 
 		<div className="cardMaps">
-			<img
-				id="imagenMapa"
-				className="card-img-top"
-				src="/images/300px-Linea_6_Metro_de_Santiago_mapa.png"
-				alt=" "
-			/>
+			<img id="imagenMapa" className="card-img-top" src="/images/mapaSsntiago.png" alt=" " />
 		</div>
 	</div>
 );

@@ -4,7 +4,7 @@ import "../../styles/home.scss";
 import { Link } from "react-router-dom";
 
 export const Sort = () => (
-	<div id="Filter1" className="container ">
+	<div id="Filter1" className="container xxx ">
 		<div>
 			<div>
 				<Link to="/">
@@ -12,17 +12,26 @@ export const Sort = () => (
 				</Link>
 			</div>
 			<div>
-				<p className="text-black-50">
+				<p className="textComponent">
 					<Link to="/">
-						<i id="textFilter" className="fas fa-less-than" />{" "}
+						<i id="textFilter" className="fas fa-less-than" />
 					</Link>
 					Ordenar por
 				</p>
-				<ul id="list" className="list-group text-black-50">
-					<li className="list-group-item">Menor precio</li>
-					<li className="list-group-item">Mayor precio</li>
-					<li className="list-group-item">Lo nuevo</li>
-					<li className="list-group-item">Distancia</li>
+				<ul id="list" className="list-group ">
+					<li className=" blue2 list-group-item  ">
+						<div id="blue" />
+						<p className="textList ">Menor precio</p>
+					</li>
+					<li className="list-group-item blue2  ">
+						<p className="textList">Mayor precio</p>
+					</li>
+					<li className="list-group-item blue2 ">
+						<p className="textList">Lo nuevo</p>
+					</li>
+					<li className="list-group-item blue2 ">
+						<p className="textList "> Distancia</p>
+					</li>
 				</ul>
 			</div>
 		</div>

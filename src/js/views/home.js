@@ -4,7 +4,7 @@ import "../../styles/home.scss";
 import { Link } from "react-router-dom";
 
 export const Home = () => (
-	<div className="container row">
+	<div className="container row xxx">
 		<div>
 			{" "}
 			<Link to="/sort">

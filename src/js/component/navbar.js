@@ -11,6 +11,7 @@ export const Navbar = () => {
 					<i id="iconTop2" className="fas fa-wifi" />
 					<i id="iconTop3" className="fas fa-battery-three-quarters" />
 				</div>
+
 				<div className="row">
 					<div id="menu">
 						&#9776;

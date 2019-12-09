@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext");
-
+@import url("https://fonts.googleapis.com/css?family=Bangers|Black+Han+Sans|Chelsea+Market|Courgette|Freckle+Face|IM+Fell+English+SC|Knewave|Love+Ya+Like+A+Sister|Rock+Salt&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 #nav {
   width: 33%;
   background-color: rgb(45, 148, 218);
@@ -31,17 +31,18 @@ body {
   margin-left: 40px;
 }
 #title {
-  margin-top: 2px;
   margin-left: 35px;
+  font-family: "Chelsea Market", cursive;
+  font-size: 32px;
 }
 #search {
   margin-top: 2px;
   font-size: 28px;
-  margin-left: 87px;
+  margin-left: 68px;
 }
 #search2 {
   font-size: 8px;
-  margin-left: 87px;
+  margin-left: 66px;
 }
 #account {
   margin-top: 2px;
@@ -50,7 +51,7 @@ body {
 }
 #account2 {
   font-size: 8px;
-  margin-left: 28px;
+  margin-left: 25px;
 }
 #iconTop1 {
   font-size: 16px;
@@ -71,13 +72,16 @@ body {
 }
 .card {
   width: 97%;
-  margin: auto;
+  margin-left: 18px;
   margin-top: 4px;
   margin-top: 20px;
   margin-bottom: 5px;
+  margin-right: 18px;
 }
 #card {
-  box-shadow: 1px 3px 3px 3px rgb(182, 178, 178);
+  -webkit-box-shadow: 1px 0px 14px -10px rgba(0, 0, 0, 0.68);
+  -moz-box-shadow: 1px 0px 14px -10px rgba(0, 0, 0, 0.68);
+  box-shadow: 1px 0px 14px -10px rgba(0, 0, 0, 0.68);
 }
 .card-body {
   height: 110px;
@@ -142,10 +146,10 @@ body {
   margin-left: 10px;
 }
 #boton2 {
-  height: 45px;
-  width: 125px;
+  height: 40px;
+  width: 130px;
   font-size: 16px;
-  margin-top: 13px;
+  margin-top: 23px;
   margin-left: 18px;
   margin-bottom: 3px;
   background-color: white;
@@ -168,14 +172,16 @@ body {
   margin: auto;
 }
 #imagenMapa {
-  margin-top: 1px;
+  margin-top: 4px;
   height: 500px;
-  width: 440px;
+  width: 472px;
 }
 .mapSombra {
-  box-shadow: 0px 1p 1px 4px rgb(182, 178, 178);
-  height: 70px;
-  width: 550px;
+  -webkit-box-shadow: 1px 7px 5px -6px rgba(0, 0, 0, 0.29);
+  -moz-box-shadow: 1px 7px 5px -6px rgba(0, 0, 0, 0.29);
+  box-shadow: 1px 7px 5px -6px rgba(0, 0, 0, 0.29);
+  height: 90px;
+  width: 100%;
   display: flex;
 
   background: rgb(243, 241, 241);
@@ -207,28 +213,67 @@ body {
   margin-top: 20px;
 }
 #list {
-  font-size: 18px;
+  font-size: 17px;
   margin-top: 50px;
-  width: 100%;
-  margin-left: 8px;
+  width: 475px;
+  margin-left: 0px;
+  padding: 0px;
+  color: #948f8f;
+  font-family: "Open Sans", sans-serif;
 }
 #textFilterx {
-  margin-left: 265px;
+  margin-left: 240px;
   transform: rotate(270deg);
   color: rgb(45, 148, 218);
+  position: absolute;
 }
 #textFilterx2 {
-  margin-left: 275px;
+  margin-left: 250px;
   transform: rotate(270deg);
   color: rgb(45, 148, 218);
+  position: absolute;
 }
 #textFilterx3 {
-  margin-left: 193px;
+  margin-left: 253px;
   transform: rotate(270deg);
   color: rgb(45, 148, 218);
+  position: absolute;
 }
 #textFilterx4 {
-  margin-left: 170px;
+  margin-left: 176px;
   transform: rotate(270deg);
   color: rgb(45, 148, 218);
+  position: absolute;
 }
+#BLueSort {
+  color: rgb(45, 148, 218);
+  margin-left: 120px;
+  font-size: 30px;
+}
+
+#blue:after {
+  content: "";
+  width: 10px;
+  height: 65px;
+  background: blue;
+  position: absolute;
+  bottom: 0px;
+  margin: 0%;
+}
+.xxx {
+  width: 33%;
+  padding: 0px;
+}
+.blue2 {
+  padding: 0%;
+  height: 67px;
+}
+.textList {
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.textComponent {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(116, 108, 108);
+}
+
